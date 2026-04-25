@@ -1,7 +1,23 @@
-# Dockerized Node.js App
+# Dockerized Node.js CI/CD Pipeline
 
-## Description
-A simple Node.js Express app containerized using Docker.
+## Overview
+This project demonstrates a Node.js application containerized using Docker and deployed using a CI/CD pipeline with GitHub Actions.
+
+## Features
+- REST API using Express.js
+- Docker containerization
+- CI/CD automation with GitHub Actions
+
+## Tech Stack
+- Node.js
+- Express.js
+- Docker
+- GitHub Actions
+
+## CI/CD Workflow
+- Code push triggers GitHub Actions
+- Docker image is built automatically
+- Application is deployed
 
 ## Run Locally
 npm install
